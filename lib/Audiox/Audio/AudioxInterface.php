@@ -24,7 +24,7 @@ interface AudioxInterface
     *
     * @param string $path
     *
-    * @return Audiox\Audio\AudioInterface
+    * @return null
     */
     function setBinaryPath($path);
 }

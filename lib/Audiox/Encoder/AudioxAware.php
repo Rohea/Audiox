@@ -37,7 +37,7 @@ abstract class AudioxAware implements EncoderInterface
      */
     public function getAudiox()
     {
-        if (!$this->imagine instanceof AudioxInterface) {
+        if (!$this->audiox instanceof AudioxInterface) {
             throw new InvalidArgumentException(sprintf('In order to use %s pass an Audiox\Audio\AudioxInterface instance to filter constructor', get_class($this)));
         }
         return $this->audiox;
